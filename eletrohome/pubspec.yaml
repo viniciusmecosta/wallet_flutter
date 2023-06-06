@@ -1,0 +1,55 @@
+name: eletrohome
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.2 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider:
+
+  cupertino_icons: ^1.0.2
+  flutter_native_splash:
+  flutter_launcher_icons:
+  cloud_firestore:
+  firebase_core:
+  flutter_credit_card_brazilian: 
+  carousel_slider:
+  flutter_slidable:
+  intl: ^0.18.1
+  material_design_icons_flutter: 
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter_native_splash:
+  color: "#FFFFFF"
+  image: assets\app\splash.png
+  android: true
+  ios: true
+
+flutter_icons: 
+  android: true
+  ios: true
+  image_path: assets\app\icon.png
+  remove_alpha_ios: true
+
+  flutter_lints: ^2.0.0
+
+
+flutter:
+
+
+  uses-material-design: true
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Medium.ttf
+
+assets:
+    - assets/fonts/
