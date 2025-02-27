@@ -1,23 +1,35 @@
-# Carteira Virtual Flutter
+# Virtual Wallet Flutter
 
-Este é um aplicativo Flutter que permite aos usuários adicionar cartões à sua carteira virtual. Os dados dos cartões são armazenados no Firebase, proporcionando uma experiência em tempo real.
+This is a Flutter app that allows users to add cards to their virtual wallet. Card data is stored in Firebase, providing a real-time experience.
 
-## Funcionalidades
+## Key Features
 
-- **Adição de Cartões**: Adicione facilmente novos cartões à sua carteira virtual.
-- **Armazenamento no Firebase**: Os dados dos cartões são armazenados de forma segura no Firebase.
-- **Atualizações em Tempo Real**: Visualize alterações na sua carteira em tempo real.
+- **Add Cards:** Easily add new cards to your virtual wallet.
+- **Firebase Storage:** Card data is securely stored in Firebase.
+- **Real-Time Updates:** View changes to your wallet in real-time.
 
-## Tecnologias Utilizadas
+## Technologies Used
 
 ### Flutter:
 
-- Desenvolvimento da interface do usuário com Flutter para proporcionar uma experiência nativa.
-- Integração com Firebase para armazenamento de dados.
+- UI development with Flutter to provide a native experience.
+- Integration with Firebase for data storage.
 
 ### Firebase:
 
-- Banco de dados Firestore para armazenar os dados dos cartões.
-- Autenticação Firebase para garantir a segurança das informações do usuário.
+- Firestore database to store card data.
+- Firebase Authentication to ensure the security of user information.
 
-![Screenshot_1686086584](https://github.com/viniciusmecosta/card-firebase-flutter/assets/118303495/4b9e0743-46b7-4a1e-8b64-ddb386947c39) ![Screenshot_1686086595](https://github.com/viniciusmecosta/card-firebase-flutter/assets/118303495/06f46d23-7c3c-428a-b0d4-02c8c13c035b) ![Screenshot_1686086622](https://github.com/viniciusmecosta/card-firebase-flutter/assets/118303495/8d8a7a38-fbca-4e88-a2ed-6b744b443bbe)
+## Screenshots
+
+<div style="display: flex; justify-content: center; gap: 15px; flex-wrap: wrap;">
+  <img src="https://github.com/viniciusmecosta/card-firebase-flutter/assets/118303495/4b9e0743-46b7-4a1e-8b64-ddb386947c39" width="200" alt="Screenshot_1">
+  <img src="https://github.com/viniciusmecosta/card-firebase-flutter/assets/118303495/06f46d23-7c3c-428a-b0d4-02c8c13c035b" width="200" alt="Screenshot_2">
+  <img src="https://github.com/viniciusmecosta/card-firebase-flutter/assets/118303495/8d8a7a38-fbca-4e88-a2ed-6b744b443bbe" width="200" alt="Screenshot_3">
+</div>
+
+## How to Use
+
+1. Clone the repository.
+2. Open the project in Android Studio or VS Code.
+3. Build and run the app on an emulator or physical device.
